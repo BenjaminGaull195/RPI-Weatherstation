@@ -20,17 +20,23 @@ The following is a list of possible hardware. This list will be updated as more 
 - Connectors:
   - RJ11
   - Screw Terminals
-  - 
+  - 16 pin DIP connector
 - PCBs:
 
 ### [Software]():
+
+Interfaces for remote access:
+- RESTful API
+- A custom TCP connection protocol
+- SSH with public key verification
 
 The following is a list of software/application requirements, this list may change depending on which language is ultimately used to write the Weatherstation software:
 - Database:
   - MariaDB
   - PostgreSQL
+    - Npgsql (if using .Net)
 - Runtimes/Languages:
-  - Net5.0 (if using .Net Core
+  - Net5.0 (if using .Net Core)
   - C/C++
   - Python
 

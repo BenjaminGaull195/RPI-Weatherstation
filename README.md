@@ -8,15 +8,19 @@ ________________
 
 The following is a list of possible hardware. This list will be updated as more options are discovered and will be eventually be replaced with the list of decided hardware once determined.
 - Sensors:
-  - Temp, Humidity, Pressure:
+	- Temp, Humidity, Pressure:
     - BME280
     - DS18B20
   - Anemometer:
   - Wind Vein:
   - Rain Gauge:
+  - Light:
+  - UV:
+  - Rain:
+  - Rainfall Accumulation?:
 - ICs:
   - ADC:
-    - MCP3008
+  	- MCP3008
 - Connectors:
   - RJ11
   - Screw Terminals
@@ -34,7 +38,7 @@ The following is a list of software/application requirements, this list may chan
 - Database:
   - MariaDB
   - PostgreSQL
-    - Npgsql (if using .Net)
+  	- Npgsql (if using .Net)
 - Runtimes/Languages:
   - Net5.0 (if using .Net Core)
   - C/C++
